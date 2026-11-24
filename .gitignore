@@ -27,3 +27,24 @@ Thumbs.db
 
 # Ignore a specific folder (and everything inside it)
 /project/
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# --- Visual Studio ---
+.vs/
+*.suo
+*.user
+
+# --- Generated Media & Temp Files ---
+project/generated/
+*.mp3
+*.wav
