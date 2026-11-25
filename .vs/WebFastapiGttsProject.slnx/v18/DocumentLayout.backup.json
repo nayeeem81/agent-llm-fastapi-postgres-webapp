@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:.env.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\uv.lock||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:uv.lock||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\pyproject.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:pyproject.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\src\\fastapwebapp\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:src\\fastapwebapp\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\Output-Debug.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:Output-Debug.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{5294F0E7-6D7C-4488-A3E9-B81F04C1095A}|WebFastapiGttsProject.pyproj|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 31,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,6 +167,162 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\requirements.txt",
+              "RelativeDocumentMoniker": "requirements.txt",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\requirements.txt",
+              "RelativeToolTip": "requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-11-25T22:46:31.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "uv.lock",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\uv.lock",
+              "RelativeDocumentMoniker": "uv.lock",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\uv.lock",
+              "RelativeToolTip": "uv.lock",
+              "ViewState": "AgIAAHILAAAAAAAAAABBwLELAACbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-25T22:43:18.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-25T22:37:52.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env.example",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.env.example",
+              "RelativeDocumentMoniker": ".env.example",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.env.example",
+              "RelativeToolTip": ".env.example",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-25T22:45:43.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-25T22:38:51.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pyproject.toml",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\pyproject.toml",
+              "RelativeDocumentMoniker": "pyproject.toml",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\pyproject.toml",
+              "RelativeToolTip": "pyproject.toml",
+              "ViewState": "AgIAAAQAAAAAAAAAAABHwAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-25T22:39:31.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-25T22:38:38.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-25T22:46:14.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAABQAAAAAAAAAAAA+wB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-11-25T22:44:51.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "main.py",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\src\\fastapwebapp\\main.py",
+              "RelativeDocumentMoniker": "src\\fastapwebapp\\main.py",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\src\\fastapwebapp\\main.py",
+              "RelativeToolTip": "src\\fastapwebapp\\main.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-11-25T22:41:58.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Output-Debug.txt",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\Output-Debug.txt",
+              "RelativeDocumentMoniker": "Output-Debug.txt",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\Output-Debug.txt",
+              "RelativeToolTip": "Output-Debug.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-11-25T22:40:50.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\VisualStudioPyProjects\\agent-llm-fastapi-postgres-webapp\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-25T22:38:33.8Z",
+              "EditorCaption": ""
             }
           ]
         }
