@@ -1,4 +1,4 @@
-# WebFastapiGttsProject
+# Web FastAPI Project
 
 A FastAPI-based web application for generating, processing, and customizing TTS audio using gTTS, PostgreSQL, and a browser-based audio studio interface.
 
