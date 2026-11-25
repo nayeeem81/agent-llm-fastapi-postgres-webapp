@@ -1,50 +1,16 @@
-# Virtual Environments
-venv/
-.venv/
-env/
-ENV/
-.env
-
-# Python Cache
-**/__pycache__/
-*.py[cod]
-*$py.class
-
-# IDEs and Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Local Audio Outputs / Temporary Media
-*.mp3
-*.wav
-*.ogg
-
-# Ignore a specific folder (and everything inside it)
-/project/
-# --- Environment & Secrets ---
-.env
-.env.*
-!.env.example
-
-# --- Python & Virtual Environments ---
 __pycache__/
 *.py[cod]
-venv/
+*.egg-info/
+dist/
+build/
 .venv/
-env/
-
-# --- Visual Studio ---
-.vs/
-*.suo
-*.user
-
-# --- Generated Media & Temp Files ---
-project/generated/
-*.mp3
-*.wav
+venv/
+.env
+.env.local
+.pytest_cache/
+.coverage
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fastapwebapp"
+version = "0.1.0"
+description = "Modern Studio Backend"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]",
+    "uvicorn",
+    "jinja2",
+    "python-multipart",
+    "itsdangerous",
+    "orjson",
+    "python-dotenv",
+    "pydantic-settings",
+    "aiofiles",
+    "httpx",
+    "sqlmodel",
+    "sqlalchemy[asyncio]",
+    "asyncpg",
+    "passlib",
+    "pyjwt[crypto]",
+    "python-jose[cryptography]",
+    "google-genai",
+    "gTTS",
+    "pydub",
+    "audioop-lts; python_version >= '3.13'",
+    "moviepy",
+    "Pillow",
+    "pygame",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "httpx>=0.27.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fastapwebapp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
