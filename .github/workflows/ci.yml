@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  test:
+    name: Run Pytest Suite
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: 123
+          POSTGRES_DB: gttstunevolume_db
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd="pg_isready -U postgres"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=5
+
+    env:
+      APP_ENV: TESTING
+      DB_USER: postgres
+      DB_PASSWORD: 123
+      DB_HOST: localhost
+      DB_PORT: 5432
+      DB_NAME: gttstunevolume_db
+      JWT_SECRET_KEY: ci_test_secret_key
+      GEMINI_API_KEY: dummy_ci_key
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install FFmpeg (required by pydub)
+        run: sudo apt-get update && sudo-get install -y --no-install-recommends ffmpeg
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install Python 3.13 & project dependencies
+        run: |
+          uv python install 3.13
+          uv sync --frozen
+
+      - name: Run pytest
+        run: uv run pytest -v
