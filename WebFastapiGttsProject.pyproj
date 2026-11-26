@@ -30,7 +30,7 @@
     <Compile Include="src\fastapwebapp\api\gttsanalyzer.py" />
     <Compile Include="src\fastapwebapp\api\gttsprocess.py" />
     <Compile Include="src\fastapwebapp\api\gttsword.py" />
-    <Compile Include="src\fastapwebapp\.vs\magiclens.py" />
+    <Compile Include="src\fastapwebapp\api\magiclens.py" />
     <Compile Include="src\fastapwebapp\api\paragraph.py" />
     <Compile Include="src\fastapwebapp\api\sentence.py" />
     <Compile Include="src\fastapwebapp\api\slideshow.py" />
