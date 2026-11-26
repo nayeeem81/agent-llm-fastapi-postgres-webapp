@@ -13,6 +13,7 @@
     <Name>WebFastapiGttsProject</Name>
     <RootNamespace>WebFastapiGttsProject</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,31 +24,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="api\chatbot.py" />
-    <Compile Include="api\fix_tabs.py" />
-    <Compile Include="api\textipyimage.py" />
-    <Compile Include="api\magiclens.py" />
-    <Compile Include="api\slideshow.py" />
-    <Compile Include="api\paragraph.py" />
-    <Compile Include="api\sentence.py" />
-    <Compile Include="data\database.py" />
-    <Compile Include="data\init_env.py" />
-    <Compile Include="data\model.py" />
-    <Compile Include="data\__init__.py" />
-    <Compile Include="api\gttsprocess.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="api\gttsword.py" />
-    <Compile Include="api\gttsagent.py" />
     <Compile Include="Dockerfile" />
-    <Compile Include="api\__init__.py" />
     <Compile Include="src\fastapwebapp\api\chatbot.py" />
     <Compile Include="src\fastapwebapp\api\fix_tabs.py" />
     <Compile Include="src\fastapwebapp\api\gttsagent.py" />
     <Compile Include="src\fastapwebapp\api\gttsanalyzer.py" />
     <Compile Include="src\fastapwebapp\api\gttsprocess.py" />
     <Compile Include="src\fastapwebapp\api\gttsword.py" />
-    <Compile Include="src\fastapwebapp\api\magiclens.py" />
+    <Compile Include="src\fastapwebapp\.vs\magiclens.py" />
     <Compile Include="src\fastapwebapp\api\paragraph.py" />
     <Compile Include="src\fastapwebapp\api\sentence.py" />
     <Compile Include="src\fastapwebapp\api\slideshow.py" />
@@ -68,12 +52,10 @@
     <Compile Include="tests\test_database.py" />
     <Compile Include="tests\test_routes.py" />
     <Compile Include="tests\__init__.py" />
-    <Compile Include="views\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".dockerignore" />
     <Content Include=".gitignore" />
-    <Content Include="api\gttsanalyzer.py" />
     <Content Include="README.md" />
     <Content Include="src\fastapwebapp\.vs\fastapwebapp.slnx\FileContentIndex\02bf2fbc-a53e-49ff-a4a8-d51e8fdb68ec.vsidx" />
     <Content Include="src\fastapwebapp\.vs\fastapwebapp.slnx\FileContentIndex\145479dd-3b6c-40f0-83b5-a3a1bb49902c.vsidx" />
@@ -182,40 +164,6 @@
     <Content Include="src\fastapwebapp\__pycache__\config.cpython-313.pyc" />
     <Content Include="src\fastapwebapp\__pycache__\main.cpython-313.pyc" />
     <Content Include="src\fastapwebapp\__pycache__\__init__.cpython-313.pyc" />
-    <Content Include="static\content\chatbot.css" />
-    <Content Include="static\content\textipyimage.css" />
-    <Content Include="static\content\storyparagraphs.css" />
-    <Content Include="static\content\slideshow.css" />
-    <Content Include="static\content\studiogtts.css" />
-    <Content Include="static\content\magiclens.css" />
-    <Content Include="static\content\paragraphs.css" />
-    <Content Include="static\js\chatbot.js" />
-    <Content Include="static\js\textipyimage.js" />
-    <Content Include="static\js\magiclens.js" />
-    <Content Include="static\js\paragraphs.js" />
-    <Content Include="static\js\slideshow.js" />
-    <Content Include="static\js\storyparagraphs.js" />
-    <Content Include="static\favicon.ico" />
-    <Content Include="static\logo.png" />
-    <Content Include="static\logopylens\logo10.png" />
-    <Content Include="static\logopylens\logo11.png" />
-    <Content Include="static\logopylens\logo2.png" />
-    <Content Include="static\logopylens\logo9.png" />
-    <Content Include="static\logopylens\logo3.png" />
-    <Content Include="static\logopylens\logo5.png" />
-    <Content Include="static\logopylens\logo6.png" />
-    <Content Include="static\logopylens\logo7.png" />
-    <Content Include="static\logopylens\logo8.png" />
-    <Content Include="static\LogoPyLens\More\image_with_text_1793872949495.png" />
-    <Content Include="static\LogoPyLens\More\image_with_text_1793872988319.png" />
-    <Content Include="static\LogoPyLens\More\image_with_text_1793873024340.png" />
-    <Content Include="static\LogoPyLens\More\sample.png" />
-    <Content Include="static\LogoPyLens\More\logo.png" />
-    <Content Include="static\LogoPyLens\More\tensor-lens-adjusted %281%29.png" />
-    <Content Include="static\LogoPyLens\More\tensor-lens-adjusted %282%29.png" />
-    <Content Include="static\LogoPyLens\More\tensor-lens-adjusted %283%29.png" />
-    <Content Include="static\LogoPyLens\More\tensor-lens-adjusted %284%29.png" />
-    <Content Include="static\LogoPyLens\More\tensor-lens-adjusted.png" />
     <Content Include="study\Break Point Debugging.pdf" />
     <Content Include="study\chat_bot.md" />
     <Content Include="study\Deploy - DockerDesktop - Compose - Ubuntu Win 11 Build - For Fast Api App.pdf" />
@@ -228,56 +176,15 @@
     <Content Include="study\Installation For PyTest GitHub Unit Testing LLM.pdf" />
     <Content Include="study\LLM Evaluation.pdf" />
     <Content Include="study\ReadMeAcademic.md" />
-    <Content Include="requirements.txt" />
-    <Content Include="static\content\banner.png" />
-    <Content Include="static\content\bootstrap.css" />
-    <Content Include="static\content\bootstrap.min.css" />
-    <Content Include="static\content\site.css" />
-    <Content Include="static\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="static\js\studiogtts.js" />
-    <Content Include="static\logopylens\logo.png" />
-    <Content Include="static\regions.min.js" />
-    <Content Include="static\wavesurfer.min.js" />
-    <Content Include="static\scripts\bootstrap.js" />
-    <Content Include="static\scripts\bootstrap.min.js" />
-    <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="static\scripts\jquery-1.10.2.js" />
-    <Content Include="static\scripts\jquery-1.10.2.min.js" />
-    <Content Include="static\scripts\jquery-1.10.2.min.map" />
-    <Content Include="static\scripts\jquery.validate-vsdoc.js" />
-    <Content Include="static\scripts\jquery.validate.js" />
-    <Content Include="static\scripts\jquery.validate.min.js" />
-    <Content Include="static\scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="static\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="static\scripts\modernizr-2.6.2.js" />
-    <Content Include="static\scripts\respond.js" />
-    <Content Include="static\scripts\respond.min.js" />
-    <Content Include="static\scripts\_references.js" />
     <Content Include="study\textdisksave_bestpractice.md" />
     <Content Include="study\texteditor.md" />
     <Content Include="study\Turing - LLM PyTest 4 Pliiers Guide Google AI Mode.pdf" />
-    <Content Include="templates\about.html" />
-    <Content Include="templates\chatbot.html" />
-    <Content Include="templates\textipyimage.html" />
-    <Content Include="templates\magiclens.html" />
-    <Content Include="templates\studiogtts.html" />
-    <Content Include="templates\index.html" />
-    <Content Include="templates\layout.html" />
-    <Content Include="templates\slideshow.html" />
-    <Content Include="templates\storyparagraphs.html" />
-    <Content Include="templates\paragraphs.html" />
-    <Content Include="static\sample.png" />
     <Content Include="tests\__pycache__\conftest.cpython-313-pytest-9.2.0.pyc" />
     <Content Include="tests\__pycache__\test_database.cpython-313-pytest-9.2.0.pyc" />
     <Content Include="tests\__pycache__\test_routes.cpython-313-pytest-9.2.0.pyc" />
     <Content Include="tests\__pycache__\__init__.cpython-313.pyc" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="api\" />
-    <Folder Include="data\" />
     <Folder Include="src\" />
     <Folder Include="src\fastapwebapp\" />
     <Folder Include="src\fastapwebapp\.vs\" />
@@ -305,18 +212,9 @@
     <Folder Include="src\fastapwebapp\utils\" />
     <Folder Include="src\fastapwebapp\utils\__pycache__\" />
     <Folder Include="src\fastapwebapp\__pycache__\" />
-    <Folder Include="static\logopylens\" />
-    <Folder Include="static\LogoPyLens\More\" />
     <Folder Include="tests\" />
     <Folder Include="tests\__pycache__\" />
     <Folder Include="study\" />
-    <Folder Include="static\" />
-    <Folder Include="static\content\" />
-    <Folder Include="static\fonts\" />
-    <Folder Include="static\js\" />
-    <Folder Include="static\scripts\" />
-    <Folder Include="templates\" />
-    <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
